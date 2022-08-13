@@ -1,0 +1,79 @@
+@import "header";
+@import "./main/burger";
+@import "./main/more";
+@import "./main/instruction";
+@import "./main/play";
+@import "./main/swaper";
+@import "./main/questions";
+@import "./main/community";
+// @import'./main/services_item';
+// @import'./main/button';
+@import "footer";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "SF Pro Display";
+}
+
+.container {
+  padding: 25px 90px 0 125px;
+}
+h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 90px;
+  color: rgb(255, 255, 255);
+}
+h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+}
+h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+@media (max-width: 1273px) {
+  .container {
+    padding: 25px 50px 0 50px;
+  }
+}
+@media (max-width: 762px) {
+  h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 50px;
+  }
+  h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    padding: 17px 15px 0 15px;
+  }
+}
